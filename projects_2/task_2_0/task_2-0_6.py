@@ -1,0 +1,6 @@
+f = open("output.txt", "w", encoding="utf-8")
+print("Имя: Екатерина", file=f)
+print("Группа: 4731901/50001", file=f)
+print("Возраст: 18 лет", file=f)
+f.close()
+print("Файл output.txt создан!")
